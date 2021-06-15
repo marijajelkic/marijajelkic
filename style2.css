@@ -1,0 +1,55 @@
+a{color: black;
+    font-weight: bold;
+text-decoration: none;
+}
+a:hover{color:white;}
+body{
+    margin-top: 20px;
+    background-color: cornflowerblue;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+div{
+    width:500px;
+    background:radial-gradient(cornflowerblue,rgba(255,255,255,0.7));
+    padding: 30px; 
+    border-radius:50px; 
+    margin: auto;
+    text-align: center; 
+}
+#div2{width:80%;
+text-align: justify;}
+#div3{width:50%;
+padding: 50px;}
+img{margin-bottom: 70px;}
+video{margin-bottom: 20px;}
+h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    color:rgb(8, 8, 56);
+    background: rgba(240, 237, 237,0.4);
+    animation: sjaj 1s ease-in-out infinite alternate;
+}
+@keyframes sjaj{
+    from {text-shadow: 0 0 10px whitee;}
+      
+      to {
+        text-shadow: 0 0 20px white, 0 0 30px whitesmoke, 0 0 40px whitesmoke, 0 0 50px lightblue;
+      }
+
+}
+h2{
+    color: rgb(8, 8, 56);
+    font-size: 30px;
+}
+
+a:active{color: darkorchid;}
+a:nth-child(2n){color:rgb(0, 34, 95);}
+a:hover:nth-child(2n){color: palevioletred;}
+
+p,li{
+    font-size: 20px;
+}
+li{margin-bottom: 5px;}
